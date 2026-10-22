@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio de Daniela Mandujano, desarrolladora Full Stack Junior y estudiante de desarrollo web en TripleTen."
+    />
+    <title>Daniela Mandujano | Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <main class="page" id="contenido">
+      <section class="profile" aria-labelledby="nombre">
+        <div class="profile__content">
+          <h1 class="profile__name" id="nombre">
+            <span class="profile__name-line">Daniela</span>
+            <span class="profile__name-line">Mandujano</span>
+          </h1>
+          <p class="profile__role">
+            Desarrolladora Full Stack Junior
+            <span class="profile__separator" aria-hidden="true">|</span>
+            <span>Estudiante en TripleTen</span>
+          </p>
+          <p class="profile__description">
+            Soy estudiante de desarrollo web en TripleTen y estoy desarrollando
+            mis habilidades en HTML y CSS para crear páginas web atractivas,
+            funcionales y adaptables a diferentes dispositivos. Me gusta
+            aprender nuevas herramientas, explorar soluciones creativas y poner
+            en práctica mis conocimientos mediante proyectos.
+          </p>
+          <nav class="profile__links" aria-label="Enlaces del perfil">
+            <a class="text-link" href="docs/CV-Daniela-Mandujano.pdf" download
+              >Descargar CV <span aria-hidden="true"></span
+            ></a>
+            <a
+              class="text-link"
+              href="https://github.com/Daniela11-pixi"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub <span aria-hidden="true"></span
+            ></a>
+            <a class="text-link" href="#contacto"
+              >Hablemos <span aria-hidden="true"></span
+            ></a>
+          </nav>
+        </div>
+        <img
+          class="profile__photo"
+          src="image/foto.jpeg"
+          alt="Retrato de Daniela Mandujano"
+          width="360"
+          height="400"
+          title="Retrato de Daniela Mandujano"
+        />
+      </section>
+      <section class="skills" aria-labelledby="herramientas">
+        <h2 class="section-title" id="herramientas">
+          Habilidades y herramientas
+        </h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="image/tool-html5.svg"
+              width="48"
+              height="48"
+              alt="Logotipo de HTML5"
+              title="Logotipo de HTML5"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="image/tool-css.svg"
+              width="48"
+              height="48"
+              alt="Logotipo de CSS"
+              title="Logotipo de CSS"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="image/tool-git.svg"
+              width="48"
+              height="48"
+              alt="Logotipo de Git"
+              title="Logotipo de Git"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="image/tool-github.svg"
+              width="48"
+              height="48"
+              alt="Logotipo de GitHub"
+              title="Logotipo de GitHub"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="image/tool-figma.svg"
+              width="48"
+              height="48"
+              alt="Logotipo de Figma"
+              title="Logotipo de Figma"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="image/tool-code.svg"
+              width="48"
+              height="48"
+              alt="Icono de Visual Studio Code"
+              title="Icono de Visual Studio Code"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="projects" aria-labelledby="proyectos">
+        <h2 class="section-title" id="proyectos">Proyectos destacados</h2>
+        <div class="projects__grid">
+          <article class="project-card">
+            <div class="project-card__media">
+              <img
+                class="project-card__image"
+                src="image/coffeeshop-preview.png"
+                alt="Página de Triple Espresso: café de especialidad en Triple Peaks, con una ilustración del interior de la cafetería"
+                width="1440"
+                height="810"
+                loading="lazy"
+                title="Página de Triple Espresso: café de especialidad en Triple Peaks, con una ilustración del interior de la cafetería"
+              />
+              <div class="project-card__veil" aria-hidden="true"></div>
+              <div class="project-card__tools project-card__tools--icons">
+                <img
+                  src="image/tool-html5.svg"
+                  width="28"
+                  height="28"
+                  alt="HTML5"
+                  title="HTML5"
+                />
+                <img
+                  src="image/tool-css.svg"
+                  width="28"
+                  height="28"
+                  alt="CSS"
+                  title="CSS"
+                />
+              </div>
+            </div>
+            <div class="project-card__content">
+              <h3 class="project-card__title">Página web de una cafetería</h3>
+              <p class="project-card__description">
+                Desarrollo de una página para la cafetería Triple Espresso
+                siguiendo un diseño de Figma. Incluye la presentación del local,
+                horarios, información de contacto y un formulario de reserva con
+                validación de campos en HTML. Construida con HTML y CSS,
+                utilizando Flexbox para organizar el contenido.
+              </p>
+              <a
+                class="project-card__link"
+                href="https://github.com/Daniela11-pixi/web_project_coffeeshop_es"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub <span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__media">
+              <img
+                class="project-card__image"
+                src="image/next-project.svg"
+                alt="Ventana de código sobre un fondo violeta"
+                width="640"
+                height="360"
+                loading="lazy"
+                title="Ventana de código sobre un fondo violeta"
+              />
+              <div class="project-card__veil" aria-hidden="true"></div>
+              <div class="project-card__tools project-card__tools--icons">
+                <img
+                  src="image/tool-javascript.svg"
+                  width="28"
+                  height="28"
+                  alt="JavaScript"
+                  title="JavaScript"
+                /><img
+                  src="image/tool-react.svg"
+                  width="28"
+                  height="28"
+                  alt="React"
+                  title="React"
+                />
+              </div>
+            </div>
+            <div class="project-card__content">
+              <h3 class="project-card__title">Mi próximo proyecto</h3>
+              <p class="project-card__description">
+                Este espacio está reservado para mi siguiente proyecto de
+                desarrollo web. Aquí compartiré el resultado, las herramientas
+                utilizadas y lo que aprendí al construirlo.
+              </p>
+              <span class="project-card__status">En preparación</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <footer class="contact" id="contacto" aria-labelledby="contacto-titulo">
+        <h2 class="section-title" id="contacto-titulo">Contacto</h2>
+        <p class="contact__description">
+          Sigamos en contacto y construyamos algo juntos.
+        </p>
+        <div class="contact__links">
+          <a
+            class="text-link"
+            href="https://github.com/Daniela11-pixi"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub ↗</a
+          ><a
+            class="text-link"
+            href="docs/CV-Daniela-Mandujano.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Ver CV ↗</a
+          >
+        </div>
+        <ul
+          class="contact__socials"
+          aria-label="Redes sociales pendientes de configurar"
+        >
+          <li class="contact__social-item">
+            <span
+              class="contact__social-icon"
+              title="LinkedIn: perfil pendiente de configurar"
+              ><img
+                src="image/social-linkedin.svg"
+                width="20"
+                height="20"
+                alt="LinkedIn"
+            /></span>
+          </li>
+          <li class="contact__social-item">
+            <span
+              class="contact__social-icon"
+              title="Facebook: perfil pendiente de configurar"
+              ><img
+                src="image/social-facebook.svg"
+                width="20"
+                height="20"
+                alt="Facebook"
+            /></span>
+          </li>
+          <li class="contact__social-item">
+            <span
+              class="contact__social-icon"
+              title="Instagram: perfil pendiente de configurar"
+              ><img
+                src="image/social-instagram.svg"
+                width="20"
+                height="20"
+                alt="Instagram"
+            /></span>
+          </li>
+          <li class="contact__social-item">
+            <span
+              class="contact__social-icon"
+              title="X: perfil pendiente de configurar"
+              ><img
+                src="image/social-x-twitter.svg"
+                width="20"
+                height="20"
+                alt="X"
+            /></span>
+          </li>
+        </ul>
+        <p class="contact__copyright">© 2026 Daniela Mandujano</p>
+      </footer>
+    </main>
+  </body>
+</html>
